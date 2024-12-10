@@ -1,70 +1,70 @@
 # WebSocket
-Este es un proyecto que fue desarrollado con javascript en una arquitectura WebSocket.
+This is a project that was developed with javascript on a WebSocket architecture.
 
-## Descripción
-Este proyecto muestra una página en la cual dará la bienvenida. 
-Es un programa sencillo para mostrar cómo funciona un programa en el lenguaje de programación con un estilo de arquitectura.
+## Description
+This project displays a welcome page.
+It is a simple program to show how a program works in the programming language with an architecture style.
 
-## Tecnologías Utilizadas
-**Contiene lo Siguiente**
-- Visual Studio Code (version mas actual)
+## Technologies Used
+**Contains the Following**
+- Visual Studio Code (most current version)
 - Docker
 - JavaScript
 - WebSocket
 
-## Requerimientos para el Desarrollo
-- **Docker Desktop** (si lo quieres correr en un contenedor)
-- **Visual Studio Code** (opcional, pero recomendado)
-- **JavaScript**(requerido y recomendado)
-- **La extensión JavaScript para Visual Studio Code** (para mejorar el soporte y el resaltado de sintaxis).
-- **GitHub Desktop** (si quieres clonar y usar el proyecto)
-  
-  ```bash
-  https://www.docker.com/products/docker-desktop/
-  ```
-  
-- **Docker hub** (si quieres clonar y usar el proyecto)
-  
-  ```bash
-  https://hub.docker.com/layers/erickjrm/programwebsocket/latest/images/sha256-4c0f5b6c780a8705c6b4b36ce5169ffe12897479611cf24a3497787f13a974af?context=repo
-  ```
+## Development Requirements
+- **Docker Desktop** (if you want to run it in a container)
+- **Visual Studio Code** (optional, but recommended)
+- **JavaScript** (required and recommended)
+- **The JavaScript extension for Visual Studio Code** (for improved support and syntax highlighting).
+- **GitHub Desktop** (if you want to clone and use the project)
 
-## Intruciciones para ejecutar el proyecto
-## Pasos para ejecutar
-**Paso #1**
-  **Clonar este repositorio**
-Si aún no ha clonado el repositorio, puede hacerlo con el siguiente link:
+```bash
+https://www.docker.com/products/docker-desktop/
+```
 
- ```bash
+- **Docker hub** (if you want to clone and use the project)
+
+```bash
+https://hub.docker.com/layers/erickjrm/programwebsocket/latest/images/sha256-4c0f5b6c780a8705c6b4b36ce5169ffe12897479611cf24a3497787f13a974af?context=repo
+```
+
+## Instructions to run the project
+## Steps to run
+**Step #1**
+**Clone this repository**
+If you have not yet cloned the repository, you can do so with the following link:
+
+```bash
 https://github.com/JosueRM2001/websocket1.git
- ```
-**Paso #2**
-  **Construya la imagen de Docker**
+```
+**Step #2**
+**Build the Docker Image**
 
-Ejecuta el siguiente comando, que generará la imagen:
+Run the following command, which will build the image:
 
 ```bash
 docker pull erickjrm/programwebsocket:latest
 ```
 
-**Paso #3**
-**Ejecute el contenedor Docker:**
+**Step #3**
+**Run the Docker container:**
 
-Luego ejecuta el siguiente comando, que genera el contenedor y el puerto.
+Then run the following command, which builds the container and port.
 
 ```bash
 docker run -d -p 8080:80 --name websocket erickjrm/programwebsocket:latest
 ```
 
-**Paso #4**
+**Step #4**
 
-Abre Docker Desktop para ver si la imagen se creó correctamente y envíala a ejecutar para verla.
+Open Docker Desktop to see if the image was built successfully and send it to run to view.
 
-**Paso #5**
+**Step #5**
 
-**Accede a la aplicación**: Si está ejecutándose, puedes acceder a la aplicación navegando a la
+**Access the application**: If it is running, you can access the application by navigating to the
 
-siguiente url en tu navegador web:
+following url in your web browser:
 
 ```bash
 https://localhost:8080
